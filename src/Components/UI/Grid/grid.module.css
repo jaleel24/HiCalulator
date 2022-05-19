@@ -1,0 +1,58 @@
+.operators {
+  display: flex;
+}
+.operators Button {
+  flex: 1 25%;
+  font-size: 18px;
+  max-width: 25%;
+  border-radius: 26px;
+  background-color: white;
+}
+.operators Button:hover,
+operators Button:active {
+  background-color: grey
+}
+
+.digits {
+  display: flex;
+  /* (i.e take a new line). */
+  flex-wrap: wrap;
+  color: white;
+  cursor: pointer;
+}
+.digits Button {
+  /* the lower property is a shorthand of the flex-grow button{
+  flex-grow: 1; 
+  flex-basis: 25%;
+} */
+/* each button should take 25% out of 100% meaning each row will have 4 buttons */
+  flex: 1 25%;
+  max-width: 25%;
+  border-radius: 26px;
+  font-size: 18px;
+  background-color: #4f005f;
+}
+
+.digits Button:hover,
+digits Button:active {
+  background: #741188;
+}
+.equal_button Button {  
+    display: block;
+    width: 100%;
+    border-radius: 16px;
+    background-color: white;
+}
+.equal_button Button:hover,
+equal_button Button:active {
+    background: grey;
+    
+}
+.display{
+    padding: 2px;
+    text-align: right;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 200;
+    color: grey;
+}
