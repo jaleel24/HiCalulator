@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HiCalulator/static/css/main.541b88f9.css",
+    "main.js": "/HiCalulator/static/js/main.7a227226.js",
+    "index.html": "/HiCalulator/index.html",
+    "main.541b88f9.css.map": "/HiCalulator/static/css/main.541b88f9.css.map",
+    "main.7a227226.js.map": "/HiCalulator/static/js/main.7a227226.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.541b88f9.css",
+    "static/js/main.7a227226.js"
+  ]
+}
